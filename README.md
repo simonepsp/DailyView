@@ -13,7 +13,7 @@ We are keen to hear from anyone interested in the Dailview project. If you would
 
 ## Documentation
 
-Pigeon’s instruction manual can be downloaded here.
+DailyView's instruction manual can be downloaded here.
 https://www.punkt.ch/en/support/technical-assistance-and-faq/
 
 # Legal terms
