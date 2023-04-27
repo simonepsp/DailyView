@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Splash theme. -->
+    <style name="Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/dailyview_splash</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/mp02Background</item>
+        <item name="android:colorBackground">@color/mp02Background</item>
+        <item name="android:textColor">@color/mp02FocusedItem</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textViewStyle">@style/mp02TextViewStyle</item>
+    </style>
+
+    <style name="mp02TextViewStyle">
+        <item name="android:fontFamily">@font/notosansdisplay_regular</item>
+        <item name="android:textSize">22px</item>
+        <item name="android:colorBackground">@color/mp02Background</item>
+    </style>
+
+    <style name="mp02TextViewFocusStyle" parent="mp02TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">54px</item>
+        <item name="android:gravity">top</item>
+        <item name="android:marqueeRepeatLimit">1</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:textColor">@color/mp02FocusedItem</item>
+        <item name="android:textSize">40px</item>
+    </style>
+
+    <style name="mp02TextViewUnfocusStyle" parent="mp02TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32px</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/mp02UnfocusedItem</item>
+    </style>
+
+</resources>

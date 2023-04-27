@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+<!--            android:paddingStart="30dp">-->
+
+            <!-- item title -->
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9px"
+                android:layout_marginStart="5px"
+                android:layout_marginEnd="5px"
+                android:textColor="@color/mp02FocusedItem"
+                android:textSize="40px" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="8px"
+                android:paddingBottom="8px"
+                android:src="@drawable/single_line" />
+
+            <!-- date and time-->
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mp02FocusedItem"
+                android:layout_marginStart="30px" />
+<!--                android:textSize="22px" />-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="8px"
+                android:paddingBottom="8px"
+                android:src="@drawable/single_line" />
+
+            <!-- content -->
+            <TextView
+                android:id="@+id/content_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5px"
+                android:layout_marginEnd="5px"
+                android:breakStrategy="simple"
+                android:textColor="@color/mp02FocusedItem" />
+<!--                android:textSize="22px" />-->
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

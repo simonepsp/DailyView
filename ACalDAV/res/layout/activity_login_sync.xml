@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:background="@color/mp02Background"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_marginTop="76px"
+        android:layout_height="54px"
+        android:paddingStart="5px"
+        android:paddingEnd="5px"
+        android:breakStrategy="simple"
+        android:textColor="@color/mp02FocusedItem"
+        android:text="@string/login_label"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/tv_sync"
+        android:layout_width="match_parent"
+        android:layout_height="32px"
+        android:paddingStart="30px"
+        android:paddingEnd="5px"
+        android:textColor="@color/mp02UnfocusedGreyItem"
+        android:text="@string/sync_calendar" />
+<!--    android:breakStrategy="simple"-->
+<!--        android:textSize="22px" />-->
+</LinearLayout>

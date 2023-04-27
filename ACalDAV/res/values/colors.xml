@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mp02Background">#ff000e00</color>
+    <color name="mp02PopUpBackground">#ff343434</color>
+    <color name="mp02FocusedItem">#ffffff</color>
+    <color name="mp02UnfocusedItem">#80ffffff</color>
+    <color name="mp02UnfocusedGreyItem">#20ffffff</color>
+</resources>

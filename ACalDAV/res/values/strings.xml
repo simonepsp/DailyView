@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">DailyView</string>
+    <string name="label" translatable="false">DailyView</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sync_status_report" translatable="false">aCalDAV Sync Status</string>
+
+
+    <string name="title_activity_authenticator">DailyView</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_accountname">Account name (optional)</string>
+    <string name="prompt_updateinterval">Update interval (minutes)</string>
+    <string name="action_sign_in_register">Sign in</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_sign_in_note_accountname">Note: The account name is also used as an email address of the organizer.</string>
+    <string name="menu_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Connect and sync...</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_no_net">Please check the network</string>
+    <string name="error_invalid_email_or_password">This email or password is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="prompt_url">URL</string>
+    <string name="error_incorrect_url_format">The format of the URL is wrong</string>
+    <string name="error_invalid_server_answer">Invalid server answer, check URL</string>
+    <string name="error_wrong_url">Wrong URL</string>
+    <string name="error_connection_refused">Connection refused</string>
+    <string name="error_invalid_number">This is not a valid number</string>
+    <string name="error_unkown_error">Unknown error</string>
+    <string name="error_account_already_in_use">Account already added</string>
+    <string name="error_ssl">SSL error</string>
+    <string name="success_calendar">Sync success</string>
+    <string name="success_collection">Connection success (multiple calendars)</string>
+    <string name="trustall">Check SSL Certificate</string>
+    <string name="error_untrusted_certificate">Untrusted certificate</string>
+    <string name="error_caldav_sync_provider_failed">Caldav sync error (provider failed)</string>
+    <string name="error_cyanogen_incognito">are you using CyanogenMod in Incognito Mode?</string>
+    <string name="error_internal_error_calendar_creation">the provider failed to get an existing or create a new calendar</string>
+    <string name="error_caldav_sync_ssl">Caldav sync error (SSL)</string>
+    <string name="error_caldav_sync_io">Caldav sync error (IO)</string>
+    <string name="error_caldav_sync_parse">Caldav sync error (parsing)</string>
+    <string name="error_caldav_sync_general">Caldav sync error (general)</string>
+    <string name="error_caldav_sync_caldav">Caldav sync error (CalDAV)</string>
+    <string name="error_caldav_sync">Caldav sync problem</string>
+
+    <string name="login_label">Login</string>
+    <string name="logout_label">Logout</string>
+    <string name="sync_calendar">Sync calendar</string>
+
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="save_label">Save</string>
+
+    <string name="today_label">Today</string>
+
+    <string name="location">Location</string>
+    <string name="no_title">(No title)</string>
+
+
+</resources>
