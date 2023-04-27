@@ -1,4 +1,4 @@
-# DailyView,  
+# DailyView  
 a CalDAV Sync Adapter for Android forked from https://gitlab.com/ennswi/AndroidCaldavSyncAdapater
 See wiki for more information and server compatibility list (https://github.com/gggard/AndroidCaldavSyncAdapater/wiki)
 
